@@ -1,0 +1,9 @@
+management:
+  endpoints:
+    web:
+      base-path: /food-app-monitor
+      exposure:
+        include:
+          - '*'
+        exclude:
+          - beans
